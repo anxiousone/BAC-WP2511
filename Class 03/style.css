@@ -1,0 +1,129 @@
+body{
+            padding: 0%;
+            margin: 0%;
+        }
+        header > div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 100px;
+            background: #E6F8FF;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            color: #0077cc;;
+        }
+
+        .Btn button {
+            padding: 8px 16px;
+            background: #0077cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .Btn button:hover {
+            background-color: #252D3F;
+        }
+
+        .mainOne {
+            padding-left: 100px;
+            padding-top: 100px;
+            background: #E6F8FF;
+        }
+
+        /*.mainOneFirst {
+            display: block;
+            background-color: #CAEAFF;
+            padding-right: 300px;
+        }*/
+
+        .mainOneFifth img {
+            height: 310px;
+            width: 560px;
+            border-radius: 35px;
+            padding: 8px;
+        }
+
+        .mainOneFifth {
+            background-color: #0077cc;
+            border-radius: 35px;
+        }
+
+        .mainOne {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 70px 100px;
+        }
+        .mainOneLfirst {
+            align-items: center;
+            font-size: 45px;
+            background: #CAEAFF;
+            color: #2397FB;
+            margin-right: 390px;
+            padding-top: 0.005px;
+            padding-bottom: 0.005px;
+            padding-left: 5px;
+        }
+        .mainOneLsecond {
+            color: #2397FB;
+            font-size: 75px;
+            margin: 0;
+        }
+
+        #mainOneLfourth {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .mainOneLthird {
+            margin-right: 250px;
+            font-size: 20px;
+            justify-content: center;
+            text-align: justify;
+        }
+
+        .scrollSection {
+            background-color: #17ACFD;
+            display: block;
+        }
+
+        .scroll-bar {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            white-space: nowrap;
+            animation: moveLeftToRight 20s linear infinite;
+            color: #FFFFFF; 
+            font-size: 24px;
+            background-color: #17ACFD;
+        }
+        @keyframes moveLeftToRight {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
